@@ -1,0 +1,42 @@
+Bước 1: Cài đặt Visual studio code 
+- Mục đích: dễ code, có nhiều extention 
+Link tải: https://code.visualstudio.com/download
+Bước 2: Đọc các thẻ trong html
+link: https://itviec.com/blog/cac-the-trong-html/
+
+** Lưu ý
+- html css không phải ngôn ngữ lập trình. Nó chỉ là các thẻ văn bản được mã hoá biến thành giao diện
+- Các thẻ cơ bản nên học trước
+input : Để nhập văn bản
+div : Để bao quanh các thẻ khác
+button : Để ấn nút kích hoạt sự kiện
+span : Để hiển thị văn bản
+
+- Các thuộc tính cần học
+class: lớp
+id: id
+
+ví dụ:
+<div class="content">
+  <span>Hãy ấn vào đây</span>
+  <button class="btn-outline" id="btn">Chọn</button>
+</div>
+
+- Ở đây thẻ div bao quanh các thẻ khác tạo thành 1 container => Mục đích kiểm soát các element và style nó
+có class content để style cho thẻ cha
+- thẻ button có id là "btn" => Để bắt sự kiện cho nó
+và class "btn-outline" để style cho nó
+=> nên ưu tiên style bằng class
+-- ========== Ví dụ =============
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+The content of the document......
+</body>
+</html>
+
+Bước 3: cài đặt extention live server trên vscode => Tiến hành build giao diện
